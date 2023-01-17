@@ -1,0 +1,39 @@
+.timeline {
+  padding: 60px 0;
+}
+.timeline .section-headline {
+  margin-bottom: 60px;
+}
+.timeline-item {
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #222;
+  border-top: 6px solid #333;
+  padding: 10%;
+  margin: 15px 0;
+}
+.timeline-item-image {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  margin-bottom: 60px;
+}
+.timeline time {
+  display: inline-block;
+  margin: 10px 0;
+  opacity: 0.8;
+}
