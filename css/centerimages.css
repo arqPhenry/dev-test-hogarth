@@ -6,7 +6,7 @@
 #herocolumn-1 .hero-image {
     width: fit-content;
     height: 100vh;
-    background-image: url(./images/final-frontier_large_2x.jpg);
+    background-image: url(../images/final-frontier_large_2x.jpg);
     background-position: center;
 
 }
@@ -14,31 +14,31 @@
 #herocolumn-2 .hero-image {
     width: fit-content;
     height: 100vh;
-    background-image: url(./images/luna_large_2x.jpg);
+    background-image: url(../images/luna_large_2x.jpg);
     background-position: center;
 
 }
 
 @media (max-width: 1024) {
     #herocolumn-1 .hero-image {
-        background-image: url(./images/final-frontier_large.jpg);
+        background-image: url(../images/final-frontier_large.jpg);
         height: fit-content;
     }
     
     #herocolumn-2 .hero-image {
-        background-image: url(./images/luna_large.jpg);
+        background-image: url(../images/luna_large.jpg);
         height: fit-content;
     }
   }
 
 @media (max-width: 768px) {
     #herocolumn-1 .hero-image {
-        background-image: url(./images/final-frontier_medium.jpg);
+        background-image: url(../images/final-frontier_medium.jpg);
         height: 50vh;
     }
     
     #herocolumn-2 .hero-image {
-        background-image: url(./images/luna_medium.jpg);
+        background-image: url(../images/luna_medium.jpg);
         height: 50vh;
     }
   }
